@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Zotero Obsidian Daily Exporter",
+  "version": "0.1.0",
+  "description": "将当天创建的 Zotero 笔记与 PDF 高亮同步到 Obsidian 的每日笔记。",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "obsidian-daily@momo.local",
+      "strict_min_version": "102.0"
+    },
+    "zotero": {
+      "strict_min_version": "7.0"
+    }
+  },
+  "icons": {
+    "48": "icons/icon.svg"
+  }
+}
